@@ -17,6 +17,18 @@ $ ./gradlew execute
 
 //windows:
 $ gradlew execute
+
+
+### For Linux: (x64)
+
+  Install libpcap-dev using:
+
+   1. $ sudo apt-get install libpcap-dev
+
+   2. Go to the jnetpcap folder inside CICFlowMeter/jnetpcap/linux/jnetpcap-1.4.r1425
+
+   3. Copy libjnetpcap.so and libjnetpcap-pcap100.so in /usr/lib/ (as sudo).
+
 ```
 ### Eclipse
 
